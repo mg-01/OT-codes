@@ -27,7 +27,7 @@ else
     end
     [leaving_val,pvt_row]=min(ratio)
 end
-B(pvt_row)=pvt_col
+BV(pvt_row)=pvt_col
 pvt_key=A(pvt_row,pvt_col)
 A(pvt_row,:)=A(pvt_row,:)/pvt_key
 for i=1:size(A,1)
